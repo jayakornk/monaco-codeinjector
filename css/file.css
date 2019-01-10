@@ -1,0 +1,32 @@
+/* Type your CSS code here. */
+#snippet_ace_editor,
+#custom_per_page_css_editor {
+    height: 500px;
+    width: 100%;
+}
+
+#custom-css-tab {
+    height: 570px;
+}
+
+#customize_custom_css {
+    height: calc(100vh - 185px);
+}
+
+textarea.for-codemirror,
+textarea.code {
+    display: none !important;
+}
+
+/* Fullwidth Customize */
+/* #customize-controls {
+    min-width: 100%;
+}
+
+.wp-full-overlay-sidebar .wp-full-overlay-sidebar-content {
+    bottom: 0;
+}
+
+#customize-footer-actions {
+    display: none;
+} */

@@ -1,0 +1,39 @@
+[{
+  "name": "Custom CSS",
+  "author": "J.Karikan",
+  "description": "Use Monaco editor in custom css",
+
+  "selector": ".*(\\/wp-admin\\/)(customize\\.php|post\\.php|post\\-new\\.php).*",
+  "onLoad": true,
+  "enabled": true,
+
+  "code": {
+    "js": "js/file.js",
+    "css": "css/file.css",
+    "html": "html/file.html",
+    "files": [
+      {
+        "ext": "js",
+        "path": "https://cdn.jsdelivr.net/npm/monaco-editor/min/vs/loader.js",
+        "type": "remote"
+      }
+    ]
+  }
+},
+{
+  "name": "Copy URL",
+  "author": "J.Karikan",
+  "description": "copy relative path from media",
+
+  "selector": ".*(\\/wp-admin\\/)(post\\-new\\.php|post.php).*(post_type\\=page|action\\=edit)",
+  "onLoad": true,
+  "enabled": true,
+
+  "code": {
+    "js": "js/file2.js",
+    "css": "css/file2.css",
+    "html": "html/file2.html",
+    "files": []
+  }
+}
+]
