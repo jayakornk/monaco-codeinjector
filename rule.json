@@ -19,20 +19,4 @@
       }
     ]
   }
-},
-{
-  "name": "Copy URL",
-  "author": "J.Karikan",
-  "description": "copy relative path from media",
-
-  "selector": ".*(\\/wp-admin\\/)(post\\-new\\.php|post.php).*(post_type\\=page|action\\=edit)",
-  "onLoad": true,
-  "enabled": true,
-
-  "code": {
-    "js": "js/file2.js",
-    "css": "css/file2.css",
-    "html": "html/file2.html",
-    "files": []
-  }
 }
