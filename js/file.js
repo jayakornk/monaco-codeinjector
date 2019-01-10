@@ -49,18 +49,15 @@ function initNewEditor(id, textarea, selector, saveSelector) {
           value: textarea.val(),
           language: lang,
           theme: 'vs-dark',
-          fontFamily: 'Dank Mono',
           fontSize: 15,
           lineHeight: 15 * 1.4,
           fontLigatures: true,
           automaticLayout: true,
           renderWhitespace: 'boundary',
           emptySelectionClipboard: true,
-          // rulers: [80],
           useTabStops: true,
       });
       console.log(editor);
-      // console.log(editor.getActions());
 
       monaco.languages.html.htmlDefaults.options.format.tabSize = 2;
       monaco.languages.html.htmlDefaults.options.format.insertSpaces = true;
